@@ -1,0 +1,2 @@
+# pitchuAdmin
+pitchuDailyChitAdmin

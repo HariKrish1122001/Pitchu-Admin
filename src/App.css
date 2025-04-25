@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2B6D00;
+    --second-primary-color: #49AE07;
+    --white-color: #fff;
+    --yellow-color: #EEB729;
+    --blue-color: #31A5D6;
+    --liteblue-color: #1CE5FF;
+    --darkblue-color: #00BDD6;
+    --violet-color: #28214B;
+    --dark-green: #047C58;
+    --thick-blue: #204578;
+}
+
+.variable-side-nav {
+    border-right: 1px solid red;
+    color: red;
+}
+
+.sidenav {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+    transform: translateX(-100%);
+    /* Hidden by default */
+}
+
+.sidenav.open {
+    display: block;
+    /* Show when open */
+    transform: translateX(0);
+    /* Slide in */
+}
+
+.toggle-icon {
+    display: block;
+    /* Visible on mobile */
+    cursor: pointer;
+    padding: 10px;
+}
+
+.close-icon {
+    cursor: pointer;
+    /* Close icon */
+    padding: 10px;
+    display: block;
+    /* Ensure it's displayed in the sidenav */
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    /* Example background */
+    border: 1px solid #ced4da;
+    /* Example border */
+}
+
+.input-group-text svg {
+    width: 1em;
+    /* Adjust icon size */
+    height: 1em;
+    /* Adjust icon size */
+}
+
+.position-relative-copy {
+    position: relative;
+}
+
+.input-icon-copy {
+    position: absolute;
+    /* left: 10px;  */
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+    color: #999;
+    /* Change icon color if needed */
+    pointer-events: none;
+    /* Prevents clicks on the icon */
+}
+
+.variable-dadhboard-title h2 {
+    color: var(--primary-color);
+}
+
+/* <<<<<<<<<<<<<<<<<variable-domestic-dashboard>>>>>>>>>>>>>>>>> */
+.variable-domestic-dashboard {
+    border: 0px solid red;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.dashboard-table {
+    border: 0px solid red;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+.dashboard-btn-1 {
+    min-width: 100px;
+    height: 50px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 20px;
+}
+
+.rdt_TableRow {
+    padding: 10px 0px;
+}
+
+.dashboard-table .rdt_TableCol_Sortable {
+    justify-content: center;
+}
+
+.dashboard-table .rdt_TableCell {
+    justify-content: center;
+}
+
+.Accept-btn {
+    min-width: 100px;
+    height: 50px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--white-color);
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.Reject-btn {
+    min-width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: var(--white-color);
+    border-radius: 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.form-check-input {
+    border-color:  var( --second-primary-color);
+}
+
+.form-check-input:focus {
+    border-color:  var( --second-primary-color);
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.modal-custom p {
+    white-space: break-spaces;
+}
+
+.modal-custom {
+    border: 1px solid var( --second-primary-color);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
